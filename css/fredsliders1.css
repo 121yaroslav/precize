@@ -1,0 +1,428 @@
+body{
+	background: url(../img/body-bg.png) top left repeat;
+	min-width: 315px;
+}
+img{
+	width: 100%;
+	height: 100%;
+}
+hr {
+	margin-top: 12px;
+	margin-bottom: 45px;
+	border-top: 1px solid #000;
+}
+.container{
+	max-width: 1008px;
+	/*width: 100%;*/
+}
+.row>h2{
+	text-align: center;
+}
+
+/* *********************************************************************************************************************************** */
+.top{
+	position: relative;
+	height: 763px;
+	background: #f0c00f;
+	margin: 0 auto;
+	overflow-x: hidden;
+	width: 100%;
+	z-index: 1;
+}
+
+.top-slider{
+	position: absolute;
+	height: 763px;
+	max-width: 1116px;
+	background: #08adf1;
+	z-index: 2;
+	width: 100%;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+
+.outline,.top-slider .text-buy{
+	position: absolute;
+	max-width: 1011px;
+	height: 94px;
+	border:1px solid #46414f;
+	top:47%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	z-index: 10;
+	width: 100%;
+	padding: 12px;
+}
+
+.text-buy .text{
+	width: 252px;
+	height: 100%;
+	float: left;
+}
+.text-buy .buy{
+	width: 215px;
+	height: 56px;
+	background-color: yellow;
+	float: right;
+	margin: 6px 0 0 0;
+}
+
+.main-menu{
+	position: relative;
+	width: 100%;
+	height: 70px;
+	background-color: #faf450;
+	padding: 7px;
+}
+.main-menu nav{
+	border: 1px solid #a29e42;
+	border-radius: 0;
+	height: 56px;
+	float: left;
+	width: 100%;
+	background-color: #faf450;
+}
+.main-menu .main_menu_form{
+	float: right;
+}
+.main-menu .main_menu_search{
+	height: 54px;
+	width: 0px;
+	margin: 0;
+	position: absolute;
+	z-index: 1000;
+	outline: none;
+	border: none;
+	background: #fff;
+	top: 0px;
+	right: 53px;
+}
+.main-menu .main_menu_btn{
+	height: 56px;
+	width: 56px;
+	float: right;
+	outline: none;
+	border: none;
+	top: -1px;
+	right: -1px;
+	position: absolute;	
+	margin: 0;
+	z-index: 1001;
+	background-color: #504f3b;
+}
+
+.main-menu .main_menu_btn:hover{
+	background-color: #504f3b;
+	color: #fff;
+}
+
+.top-slider .text-buy{
+	top: 79.3%;
+	height : 94px;
+}
+
+header{
+	background-color: rgba(0,0,0,0.8);
+	margin: 0 auto;
+	position: relative;
+	min-height: 66px;
+	z-index: 10;
+}
+	header .container-fluid{
+		max-width: 1116px;
+	}
+.logotip{
+	height: 66px;
+}
+.header-menu{
+	height: 66px;
+}
+.header-menu-right{
+	height: 66px;
+	float: right;
+}
+
+.user-menu{
+	position: relative;
+	background: #fff;
+	min-height: 30px;
+	z-index: 10;
+}
+.user-menu .container-fluid{
+	max-width: 1116px;
+	margin: 0 auto;
+}
+.welcome{
+	height: 30px;
+}
+.user-log{
+	height: 30px;
+}
+/* *********************************************************************************************************************************** */
+main{
+	padding-top: 38px;
+	position: relative;
+	min-height: 500px;
+	max-width: 1116px;
+	margin: 0 auto;
+	background: #fff;
+}
+
+.banners{
+	margin-bottom: 42px;
+}
+
+.banner{
+	height: 120px;
+	margin: 27px 0 0 0;
+	background: #8e9489;
+}
+
+.main-carousel{
+	position: relative;
+	margin: 26px 0 55px 0; 
+	padding: 0!important;
+}
+
+.full-banner{
+	height: 120px;
+	background: #5e5574;
+	margin: 10px 0 42px 0;
+}
+.second-carousel{
+	margin-top: 28px;
+	margin-bottom: 53px;
+}
+
+.about,.news,.follow{
+	min-height: 422px;
+	background: #2B2083;
+	margin: 10px 0 42px 0;
+}
+
+.main-phone{
+	text-align: center;
+	margin-bottom: 56px;
+}
+
+/* *********************************************************************************************************************************** */
+footer{
+	position: relative;
+	min-height: 200px;
+	max-width: 1116px;
+	margin: 33px auto 18px auto;
+}
+
+.top-info{
+	background: #fff;
+}
+
+.information,.costume,.extras,.account,.soc{
+	margin:60px 0;
+}
+
+.copyright,.addr,.phone,.payments{
+	height: 50px;
+	margin-bottom: 10px;
+	margin:10px 0;
+}
+
+.bott-info{
+	margin: 44px 0;
+}
+/* *********************************************************************************************************************************** */
+/* *********************************************************************************************************************************** */
+@media(max-width: 991px){
+	.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1,
+ 	.col-xs-2, .col-sm-2, .col-md-2, .col-lg-2,
+ 	.col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, 
+ 	.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4,
+  	.col-xs-5, .col-sm-5, .col-md-5, .col-lg-5,
+   	.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6,
+    .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, 
+    .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, 
+    .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, 
+    .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, 
+    .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11,
+    .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+     	padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.top,.top-slider{
+		height: 543px;
+	}
+	
+	.banner{
+		height: 94px;
+	}
+
+	.outline, .top-slider .text-buy{
+		width: 85.7%;
+		top: 36.3%;
+	}
+	.top-slider .text-buy{
+		top: 71.2%;
+	}
+
+	.main-menu button.navbar-toggle{
+		position: absolute;
+		left: 0px;
+	}
+
+	.full-banner{
+		height: 95px;
+		margin: 8px 0 38px 0;
+	}
+
+	.about, .news, .follow{
+		min-height: 482px;
+	}
+
+	.extras, .account{
+		  margin: 0 0 60px 0;
+	}
+
+	.information, .costume, .soc{
+		  margin: 61px 0 23px 0;
+	}
+
+	.bott-info{
+		margin: 35px 0;
+	}
+
+}
+
+
+/* *********************************************************************************************************************************** */
+/* *********************************************************************************************************************************** */
+@media(max-width: 767px){
+
+	.top,.top-slider{
+		height: 381px;
+	}
+
+	.outline, .top-slider .text-buy{
+		width: 89.7%;
+		top: 49.3%;
+	}
+	.top-slider .text-buy{
+		top: 73.2%;
+	}
+
+	.logotip,.header-menu,.header-menu-right{
+		height: 48px;
+	}
+	.welcome, .user-log{
+		height: 25px;
+	}
+
+	.outline, .top-slider .text-buy{
+		border: none;
+	}
+	.text-buy .text{
+		width: 130px;
+	}
+	.text-buy .buy{
+		width: 110px;
+		height: 29px;
+		margin: 19px 0 0 0;
+	}
+	
+	main{
+		padding-top:5px; 
+	}
+	.banner{
+		height: 120px;
+		margin:10px 4px 0 4px;  
+	}
+	.main-carousel{
+		margin: 22px 0 54px 0;
+	}
+	.full-banner{
+		height: 39px;
+	}
+	.second-carousel{
+		margin-top: 21px;
+	}
+
+	.about, .news, .follow{
+		min-height: 405px;
+		margin: 12px 0 13px 0;
+	}
+	.follow{
+		margin-bottom: 46px;
+		min-height: 325px;
+	}
+	.main-phone{
+		margin-bottom: 60px;
+	}
+	.main-phone h2{
+		font-size: 20px;
+	}
+
+	
+	footer{
+		margin: 22px auto 18px auto;
+	}
+	.information, .costume, .extras, .account, .soc{
+		min-height: 152px;
+	}
+
+	.information, .costume{
+		margin-top: 65px;
+	}
+	.soc{
+		margin-bottom: 50px;
+	}
+	.bott-info{
+		margin: 20px 0;
+	}
+	
+
+}
+
+/* *********************************************************************************************************************************** */
+/* *********************************************************************************************************************************** */
+@media (max-width: 620px){
+	.banners .col-xs-6{
+		width: 100%;
+	}
+	.banners .col-xs-push-3{
+		left:0;
+	}
+	.banner{
+		width: 312px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.information-main-botom .col-xs-6{
+		width: 100%;
+	}
+	.information-main-botom .col-xs-push-3{
+		left: 0;
+	}
+}
+
+/* *********************************************************************************************************************************** */
+/* *********************************************************************************************************************************** */
+@media (max-width: 350px){
+	.banner{
+		width: 100%;
+	}
+}
+
+
+.clear-pad{
+	padding-left: 0;
+	padding-right: 0;
+}
+.clear-pad-left{
+	padding-left: 0;
+}
+.clear-pad-right{
+	padding-right: 0;
+}

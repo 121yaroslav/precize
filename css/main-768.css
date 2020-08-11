@@ -1,0 +1,233 @@
+
+body {
+  background: url(../img/bg.png) repeat-x;
+  z-index: 0;
+}
+header .row1 {
+  margin: 0 auto;
+  border: 1px solid #cc0000;
+  height: 65px;
+}
+header .row2 {
+  margin: 0 auto;
+  border: 1px solid #000;
+  height: 30px;
+}
+
+header div.logo, div.primary-nav, div.cart{
+  float:left;
+  height: 65px;
+  border: 1px solid #cc0000;
+  background: #000;
+  z-index: 3;
+  opacity: 0.5;
+}
+div.welcome-note, div.cart-nav {
+  float:left;
+  height: 30px;
+  border: 1px solid #cc0000;
+  background: #000;
+}
+header .row1 div.logo{
+  width: 110px;
+}
+header .row1 div.primary-nav{
+  width: 80px;
+}
+header .primary-nav ul{
+  display: none;
+}
+header .row1 div.cart{
+  width: 205px;
+  float: right;
+}
+header .row2 div.welcome-note{
+  width: 270px;
+}
+header .row2 div.cart-nav{
+  width: 225px;
+  float: right;
+}
+
+/*_________Main_slider_______*/
+/*_______main_nav_____*/
+
+section.main-slider {
+  float:none;
+  clear: both
+}
+ nav.main-nav {
+ position: absolute;
+ top: 275px;
+ left: 0%;
+ height: 70px;
+ background: yellow;
+ border: 1px solid #cc0000;
+}
+ nav.main-nav li{
+
+}
+ nav.main-nav li:last-child{
+  float:right;
+}
+section.main-slider {
+  position: relative;
+  margin: -100px -55px 0;
+}
+
+ nav ul li button.search {
+  width:55px;
+  height:56px;
+  background:  url("../img/search.png");
+  margin:  7px  0 0 0px;
+  float:  right!important;
+}
+/*_________________*/
+section.main-slider {
+  max-width: 984px;
+  margin: -100px auto 0;
+  position: relative;
+}
+.owl-carousel.owl-theme {
+  position: absolute;
+  top: -100px;
+  right:0;
+  z-index: -1;
+}
+.owl-carousel .owl-wrapper-outer {
+  height: 661px;
+}
+.owl-pagination {
+  width: 100%;
+  border: 1px solid;
+  margin: 0 0%;
+}
+.owl-theme .owl-controls .owl-page span {
+  width: 27.22vw!important;
+  height: 10px;
+  margin: 0px 0%!important;
+  filter: Alpha(Opacity=50);
+  opacity: 0.5;
+  -webkit-border-radius: 0px!important;
+  -moz-border-radius: 0px!important;
+  border-radius: 0px!important;
+}
+/*_____________________Mobile_menu_____________________*/
+.mobile-nav {
+    margin: 25px 0 20px;
+}
+.mobile-nav input {
+  display: none;
+}
+.mobile-nav label.label1 {
+  width: 108%;
+  cursor:pointer;
+  height:50px;
+  background:#F5F7F9;
+  display:block;
+  margin:0 0px 0 -4%;
+  max-width: 108%;
+  padding: 0px 3% 0 2%!important;
+  border-top: 1px solid #e0e0e0;
+}
+.mobile-nav ul.first {
+  width: 108%;
+  margin: 0 0 0 -4%;
+}
+  
+.mobile-nav ul.first li,.mobile-nav ul.second li{
+  border: 1px solid #e0e0e0;
+  margin: -1px 0 0 0;
+  cursor:pointer;
+}
+.mobile-nav ul.first li,.mobile-nav ul.second li{
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+  margin: -1px 0 0 0;
+  cursor:pointer;
+}
+.mobile-nav ul.first li:hover,.mobile-nav ul.second li a:hover{
+  background-color: #f5f7f9;  
+}
+.mobile-nav ul.first li a {
+  padding: 0 0 0 3.5%;
+  text-decoration: none;
+}
+.mobile-nav ul.second li a {
+  padding: 0 0 0 6%;
+  text-decoration: none;
+}
+.mobile-nav label.label2 {
+  display:block;
+  width: 100%;
+  cursor:pointer;
+  padding:0;
+  margin:0; 
+}
+.mobile-nav label.label1 span.catalog  {
+  font: normal 14px 'Bitter',serif;
+  display: block;
+  height: 50px;
+  padding: 16px 0 0;
+  float: left;
+  color: #777;;
+}
+.mobile-nav ul.first li a{
+  cursor: pointer;
+  font: normal 13px/39px 'Bitter',serif;
+  color: #777;
+}
+.mobile-nav ul.first label.label2 {
+  font: normal 13px/39px 'Bitter',serif;
+  color: #777;
+}
+.mobile-nav ul.second li a {
+  cursor: pointer;
+  font: normal 13px/39px 'Bitter',serif;
+  color: #777;
+}
+.mobile-nav label div.menu-bg{
+  width: 49px ;
+  height: 49px;
+  background: url(../img/mobile-menu/menu.png) no-repeat center;
+  float: left;
+}
+.mobile-nav label div.plus-bg{
+  width: 39px ;
+  height: 50px;
+  background: url(../img/mobile-menu/plus.png) no-repeat center;
+  float: right;
+}
+.mobile-nav label div.sub-plus-bg{
+  width: 50px;
+  height: 39px;
+  background: url(../img/mobile-menu/light-plus.png) no-repeat 0% center;
+  float: right;
+}
+.mobile-nav ul.first {
+  display: none;
+  width: 108%;
+  margin: 1px 0 0 -4%;
+}
+.mobile-nav ul li ul.second {
+  display: none;
+  margin: 0 -1px -2px;
+}
+input#check1:checked ~ ul.first{
+  display: block;
+
+}
+input#check1:checked + label div.plus-bg {
+ background: url(../img/mobile-menu/minus.png) no-repeat  center;
+}
+
+input#check2:checked ~ ul.second{
+  display: block;
+}
+input#check2:checked + label div.sub-plus-bg {
+ background: url(../img/mobile-menu/light-minus.png) no-repeat 0% center;
+}
+
+nav.navbar.navbar-inverse {
+  display: none;  
+}

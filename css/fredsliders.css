@@ -1,0 +1,149 @@
+
+.top-slider img,.main-carousel img,.second-carousel{
+	width: 100%;
+	height: 100%;
+}
+
+
+
+/* *********************************************************************************************************************************** */
+
+.top-slider{
+	position: relative;
+	height: 666px;
+	max-width: 1116px;
+	background: #08adf1;
+	z-index: 0;
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+.outline,.top-slider .text-buy{
+	position: absolute;
+	max-width: 1011px;
+	height: 94px;
+	border:1px solid #777;
+	top:47%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	z-index: 10;
+	width: 100%;
+	padding: 12px;
+}
+
+.text-buy .text{
+	width: 252px;
+	height: 100%;
+	float: left;
+}
+.text-buy .buy{
+	width: 215px;
+	height: 56px;
+	background-color: yellow;
+	float: right;
+	margin: 6px 0 0 0;
+}
+
+
+.top-slider .text-buy{
+	top: 76.3%;
+	height : 94px;
+}
+
+
+.main-carousel{
+	position: relative;
+	margin: 26px 0 55px 0; 
+	padding: 0!important;
+}
+
+
+.second-carousel{
+	margin-top: 28px;
+	margin-bottom: 53px;
+}
+
+
+/* *********************************************************************************************************************************** */
+@media(max-width: 992) and (min-width: 769px){
+	.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1,
+ 	.col-xs-2, .col-sm-2, .col-md-2, .col-lg-2,
+ 	.col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, 
+ 	.col-xs-4, .col-sm-4, .col-md-4, .col-lg-4,
+  	.col-xs-5, .col-sm-5, .col-md-5, .col-lg-5,
+   	.col-xs-6, .col-sm-6, .col-md-6, .col-lg-6,
+    .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, 
+    .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, 
+    .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, 
+    .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, 
+    .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11,
+    .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+     	padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.top-slider{
+		height: 666px;
+	}
+	
+	.banner{
+		height: 94px;
+	}
+
+	.border-nav, .top-slider .text-buy{
+		width: 90%;
+		top: 36.3%;
+	}
+	nav.main-nav {
+		width:97%;
+		margin: 0 1.5%;
+	}
+	.top-slider .text-buy{
+		top: 71.2%;
+	}
+
+	
+
+	
+
+	
+
+
+/* ***********************************************************************************************************************************/
+@media(max-width: 767px) and (min-width: 320px){
+
+	.top-slider{
+		height: 528px;
+	}
+
+	.outline, .top-slider .text-buy{
+		width: 89.7%;
+		top: 49.3%;
+	}
+	.top-slider .text-buy{
+		top: 73.2%;
+	}
+
+	
+
+	.text-buy .text{
+		width: 130px;
+	}
+	.text-buy .buy{
+		width: 110px;
+		height: 29px;
+		margin: 19px 0 0 0;
+	}
+	
+	
+	.main-carousel{
+		margin: 22px 0 54px 0;
+	}
+	
+	.second-carousel{
+		margin-top: 21px;
+	}
+
+

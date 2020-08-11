@@ -1,0 +1,424 @@
+
+/*body {
+  background: url(../img/bg.png) repeat-x;
+
+}
+.wrapper {
+  max-width: 984px;
+  margin: 0 auto;
+  float:none;
+  height:1000px;
+}
+header .row1 {
+  margin: 0 auto;
+  max-width: 1120px;
+  height: 65px;
+  border: 1px solid #cc0000;
+}
+header .row2 {
+  margin: 0 auto;
+  max-width: 1120px;
+  border: 1px solid #000;
+  height: 30px;
+}
+
+header div.logo, div.primary-nav, div.cart{
+  float:left;
+  height: 65px;
+  border: 1px solid #cc0000;
+  background: #000;
+  z-index: 3;
+  opacity: 0.5;
+}
+header .primary-nav ul{
+  display: none;
+}
+
+div.welcome-note, div.cart-nav {
+  float:left;
+  height: 30px;
+  border: 1px solid #cc0000;
+  background: #000;
+}
+header .row1 div.logo{
+  width: 150px;
+}
+header .row1 div.primary-nav{
+  width: 310px;
+}
+header .row1 div.cart{
+  width: 260px;
+  float: right;
+}
+header .row2 div.welcome-note{
+  width: 310px;
+}
+header .row2 div.cart-nav{
+  width: 250px;
+  float: right;
+}
+/*_________Main_slider_______*/
+/*_______main_nav_____*/
+/*
+section.main-slider {
+  float:none;
+  clear: both
+}
+ nav.main-nav {
+ position: absolute;
+ top: 252px;
+ left: 0%;
+ height: 74px;
+ background: yellow;
+}
+ nav.main-nav li{
+  display: inline-block;
+}
+section.main-slider {
+  position: relative;
+  margin: -100px -55px 0;
+}
+
+ nav ul li button.search {
+  width:50px;
+  height:50px;
+  background:  url("../img/search.png")
+}
+
+.owl-carousel.owl-theme {
+  position: absolute;
+  top: -100px;
+  right:0;
+  z-index: 2;
+}
+.owl-carousel .owl-wrapper-outer {
+  height: 661px;
+  z-index: 0;    
+}
+ 
+ .owl-pagination {
+  width: 112%;
+  border: 1px solid;
+  margin: 0 -7%;
+}
+.owl-theme .owl-controls .owl-page span {
+  height: 10px;
+  margin: 0px 0%!important;
+  filter: Alpha(Opacity=50);
+  opacity: 0.5;
+  -webkit-border-radius: 0px!important;
+  -moz-border-radius: 0px!important;
+  border-radius: 0px!important;
+}
+*/
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+position: relative;
+min-height: 1px;
+padding-left: 0px!important;
+padding-right: 0px!important;
+}
+body {
+  background: url(../img/bg.png) repeat-x, url(../img/square_bg.png) repeat 100% 0;
+  z-index: 0;
+}
+
+.wrapper {
+  max-width: 984px;
+  margin: 0px auto!important;
+  float: none!important;
+  height: 2194px;
+  border: 1px solid #456;
+  background-color: #fff
+}
+header .row1 {
+  margin: 0 auto;
+  border: 1px solid #cc0000;
+  height: 65px;
+  max-width: 1120px;
+
+}
+header .row2 {
+  margin: 0 auto;
+  border: 1px solid #000;
+  height: 30px;
+  max-width: 1120px;
+}
+
+header div.logo, div.primary-nav, div.cart{
+  float:left;
+  height: 65px;
+  border: 1px solid #cc0000;
+  background: #000;
+  opacity: 0.5;
+
+}
+header .primary-nav ul{
+  display: none;
+}
+
+div.welcome-note, div.cart-nav {
+  float:left;
+  height: 30px;
+  border: 1px solid #cc0000;
+  background: #000;
+}
+header .row1 div.logo{
+  width: 150px;
+}
+header .row1 div.primary-nav{
+  width: 310px;
+  border: 1px solid #cc0000;
+}
+header .row1 div.cart{
+  width: 260px;
+  float: right;
+}
+header .row2 div.welcome-note{
+  width: 310px;
+}
+header .row2 div.cart-nav{
+  width: 250px;
+  float: right;
+}
+
+/*_________Main_slider_______*/
+/*_______main_nav_____*/
+
+div.main-slider div.item{
+  background-color: red;
+  height:997px;
+  width:100%;
+
+}
+div.main-slider {
+  float:none;
+  clear: both;
+  z-index: 0;
+}
+ nav.main-nav {
+ position: absolute;
+ top: 275px;
+ left: 0%;
+ height: 70px;
+ background: yellow;
+ border: 1px solid #cc0000;
+}
+ nav.main-nav li{
+  display: inline-block;
+}
+ nav.main-nav li:last-child{
+  float:right!important;
+}
+div.main-slider {
+  position: relative;
+  margin: -100px -55px 0;
+}
+
+ nav ul li button.search {
+  width:55px;
+  height:56px;
+  background:  url("../img/search.png");
+  float:  right!important;
+  margin:  7px  0 0 0px;
+}
+/*_______________________*/
+div.main-slider {
+  margin: -100px auto 0;
+  position: relative;
+  max-width: 1120px;
+  height: 765px;
+}
+#owl-demo.owl-carousel.owl-theme {
+  position: absolute;
+  top: -100px;
+  right:0;
+}
+#owl-demo.owl-carousel .owl-wrapper-outer {
+  padding: 0!important;
+  height: 848px;
+}
+#owl-demo .owl-pagination {
+  padding: 0!important;
+  width: 100%;
+}
+#owl-demo.owl-theme .owl-controls {
+  margin-top: 0px!important;
+}
+#owl-demo.owl-theme .owl-controls .owl-page span {
+  width: 17.4vw!important;
+  height: 5px!important;
+  margin: 0px 0%!important;
+  filter: Alpha(Opacity=50);
+  opacity: 0.5;
+  -webkit-border-radius: 0px!important;
+  -moz-border-radius: 0px!important;
+  border-radius: 0px!important;
+  background-color: #777!important;
+}
+#owl-demo.owl-theme .owl-controls .owl-page.active span {
+  background-color: #fff84b!important;
+}
+#owl-demo.owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+  top: 494px!important;
+}
+#owl-demo.owl-theme .owl-controls .owl-buttons div.owl-prev {
+  left: -84px!important;
+}
+#owl-demo.owl-theme .owl-controls .owl-buttons div.owl-next {
+  right:-80px!important;
+}
+/*_____________________Mobile_menu_____________________*/
+.mobile-nav {
+    display:none;
+}
+
+/*_____________________________*/
+.mobile-nav ul.first li, .mobile-nav ul.second li {
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+  margin: -1px 0 0 0;
+  cursor: pointer;
+}
+.mobile-nav ul.first li a {
+  cursor: pointer;
+  font: normal 13px/39px 'Bitter',serif;
+  color: #777;
+}
+.mobile-nav ul.second li a {
+  cursor: pointer;
+  font: normal 13px/39px 'Bitter',serif;
+  color: #777;
+}
+.mobile-nav ul.first {
+  display: none;
+  width: 100%;
+  margin: 1px 0 0 0%;
+}
+/*_______________________________Banners_______________________*/
+.banners {padding:0!important;}
+.banners .banner-1,.banners .banner-2,.banners .banner-3 {
+  height: 113px!important;
+  margin:64px 24px 0 0px;
+  display: inline-block;
+  background: blue;
+  width: 31.65%;
+}
+.banners .banner-3 {
+  margin-right:0!important;
+}
+/*___________________________________Product_Slider___________*/
+.recommended-products .left-hr,  .recommended-products .right-hr, .distributors .left-hr, .distributors .right-hr,.distributors h2{
+  width:28.6%;
+  float:left;
+  display: inline-block;
+  height:1px;
+  margin: 60px 0;
+  border-bottom: 1px solid #7f7f7f;
+}
+.distributors .left-hr, .distributors .right-hr{
+  width:27.94%;
+  margin: 60px 0;
+  float:left;
+}
+
+.recommended-products  h2 {
+  border-bottom:none;
+  float:left;
+  display:block;
+  width: 419px;
+}
+.distributors h2 {
+  float:left;
+  display:block;
+  border-bottom: none;
+  width: 433px;
+}
+#owl-demo1 {
+  margin-top: 297px;
+}
+#owl-demo2.owl-carousel {
+  position: relative;
+  width: 100%;
+  margin: 291px 0 0;
+  height: 120px;
+}
+#owl-demo1 .owl-pagination {
+  position: absolute;
+  bottom: 389px;
+  right: 0;
+}
+#owl-demo1.owl-theme .owl-controls .owl-page span.owl-numbers,#owl-demo2.owl-theme .owl-controls .owl-page span.owl-numbers {
+  padding: 3px 7px 1px 7px;
+}
+#owl-demo1 .owl-next{
+position: absolute;
+bottom: 137px;
+right: -71px;
+}
+
+#owl-demo1 .owl-prev{
+position: absolute;
+bottom: 137px;
+left: -71px;
+}
+#owl-demo2 .owl-next,#owl-demo2 .owl-prev {
+  bottom: 41px!important;
+  position: absolute;
+}
+#owl-demo2 .owl-next {
+  right: -71px;
+}
+#owl-demo2 .owl-prev {
+left: -71px;
+}
+#owl-demo2 .owl-pagination {
+  position: absolute;
+  bottom: 179px;
+  right: 0;
+}
+/*_______FedCarousel_______________________*/
+.main-carousel {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.main-carousel img{
+  width: 100%;
+  height: 100%;
+  border: 1px solid #000;
+}
+
+.second-carousel {
+  max-width: 90%;
+  margin: 20px auto 0;
+}
+/*____________________________________Wide_Banner_____________*/
+.wide-banner  {
+  height: 98px;
+  padding: 0;
+  margin: 64px 0 0;
+}
+/*__________________________________Blocks_________________________*/
+.blocks div {
+  height:350px;
+  background: #0c0;
+  margin: 0 18px;
+  width: 29.6%;
+  float:left;
+}
+.blocks hr {
+  width: 100%;
+  height:1px;
+  background-color:#7f7f7f;
+  margin:68px 0 68px;
+}
+/*___________________________________Footer_______________________________*/
+footer {
+  height: 263px;
+  background-color: #fff;
+}
+footer div {
+  height: 140px;
+  margin: 62px 8px;
+  background-color: blue;
+}
